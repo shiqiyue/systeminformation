@@ -15,6 +15,7 @@
     "test-bare": "npm run compile && mocha ./test/**/*.test.js",
     "compile": "tsc",
     "watch": "tsc -w",
+    "build": "",
     "test": "nyc mocha --require ts-node/register --require source-map-support/register  ./test/**/*.test.ts",
     "coverage": "nyc report --reporter=text-lcov"
   },
